@@ -100,8 +100,78 @@ ul {
     margin-top: 50px;
 }
 
-.navigation-icon, .logo-icon {
+.navigation-icon, .logo-icon, .search-icon, .profile-pic, .bell-icon, .profile-pic, .greeting-profile-pic {
     border: 1px solid blue;
     width: 30px;
     height: 30px;
+}
+
+.header {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding: 20px 0 10px 45px;
+}
+
+.section-1 {
+  display: flex;
+}
+
+.search-bar-container {
+  display: flex;
+  column-gap: 15px;
+}
+
+input {
+  width: 600px;
+  height: 35px;
+  border-radius: 20px;
+  margin-right: 120px;
+}
+
+.user-info {
+  display: flex;
+  padding-left: 30px;
+}
+
+.user-info p {
+  margin-left: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.section-2 {
+  display: grid;
+  grid-template-columns: 700px 400px;
+  align-items: center;
+}
+
+.greeting {
+  display: flex;
+}
+
+.greeting-text {
+  margin-left: 20px;
+}
+
+.greeting-text p {
+  font-weight: 600;
+}
+
+.greeting-text h3 {
+  font-size: 22px;
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(70, 153, 247);
+  font-weight: 700;
+  color: white;
 }
