@@ -47,6 +47,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* Reset End */
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
 .container {
     height: 100vh;
     display: grid;
@@ -56,4 +61,47 @@ h1, h2, h3, h4, h5, h6 {
 
 .sidebar {
     grid-row: 1 / span 2;
+    display: grid;
+    grid-template-rows: 2fr 8fr 12fr;
+    padding: 20px;  
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.navigation-list-1 li,
+.navigation-list-2 li,
+.logo-container
+{
+    display: flex;
+}
+
+.navigation-list-1,
+.navigation-list-2
+{
+    display: grid;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.navigation-list-2 {
+    grid-template-rows: 30px 30px 30px;
+    row-gap: 30px;
+}
+
+.navigation-icon {
+    margin-right: 10px;
+}
+
+.navigation-list-2 {
+    margin-top: 50px;
+}
+
+.navigation-icon, .logo-icon {
+    border: 1px solid blue;
+    width: 30px;
+    height: 30px;
 }
