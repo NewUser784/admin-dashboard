@@ -67,11 +67,14 @@ ul {
     grid-row: 1 / span 2;
     display: grid;
     grid-template-rows: 2fr 8fr 12fr;
-    padding: 20px;  
+    padding: 0px 20px;
+    background-color: #309fe8;
+    color: white;
+    min-width: 270px;  
 }
 
 .logo-text {
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 700;
     margin-left: 15px;
 }
@@ -83,28 +86,33 @@ ul {
     display: flex;
 }
 
+.logo-container {
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.navigation-icon {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(134deg) brightness(104%) contrast(104%);
+  margin-right: 10px;
+}
+
 .navigation-list-1,
 .navigation-list-2
 {
     display: grid;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
+    align-items: center;
+    padding-left: 12px;
 }
 
 .navigation-list-2 {
     grid-template-rows: 30px 30px 30px;
     row-gap: 30px;
-}
-
-.navigation-icon {
-    margin-right: 10px;
-}
-
-.navigation-list-2 {
     margin-top: 50px;
 }
 
-.navigation-icon, .logo-icon, .search-icon, .profile-pic, .bell-icon, .profile-pic, .greeting-profile-pic
+.logo-icon, .search-icon, .profile-pic, .bell-icon, .profile-pic, .greeting-profile-pic
 , .card-icon, .user-icon {
     border: 1px solid blue;
     width: 30px;
