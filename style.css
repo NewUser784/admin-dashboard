@@ -127,18 +127,23 @@ ul {
 
 .section-1 {
   display: flex;
+  align-items: start;
 }
 
 .search-bar-container {
   display: flex;
   column-gap: 15px;
+  padding-top: 6px;
 }
 
-input {
-  width: 600px;
+.search-bar {
+  width: 700px;
   height: 35px;
   border-radius: 20px;
   margin-right: 120px;
+  border: none;
+  background-color: #ebf2f9;
+  padding-left: 15px;
 }
 
 .user-info {
@@ -150,11 +155,13 @@ input {
   margin-left: 30px;
   font-size: 18px;
   font-weight: 600;
+  padding-top: 8px;
 }
 
 .section-2 {
   display: grid;
-  grid-template-columns: 700px 400px;
+  /* grid-template-columns: 700px 400px; */
+  grid-template-columns: 770px 400px;
   align-items: center;
 }
 
@@ -164,9 +171,11 @@ input {
 
 .greeting-text {
   margin-left: 20px;
+  padding-top: 6px;
 }
 
 .greeting-text p {
+  font-size: 14px;
   font-weight: 600;
 }
 
@@ -184,7 +193,8 @@ button {
   height: 40px;
   border: none;
   border-radius: 20px;
-  background-color: rgb(70, 153, 247);
+  /* background-color: rgb(70, 153, 247); */
+  background-color: #309fe8;
   font-weight: 700;
   color: white;
 }
