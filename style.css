@@ -325,3 +325,13 @@ hr {
   color: #5d5e5f;
   font-size: 14px;
 }
+
+a:link,
+a:visited { 
+  color: #5d5e5f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
