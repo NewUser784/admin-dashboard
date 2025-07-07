@@ -67,7 +67,7 @@ ul {
     grid-row: 1 / span 2;
     display: grid;
     grid-template-rows: 2fr 8fr 12fr;
-    padding: 0px 20px;
+    padding: 7px 20px;
     background-color: #309fe8;
     color: white;
     min-width: 270px;  
